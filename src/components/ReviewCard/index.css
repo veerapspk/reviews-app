@@ -1,0 +1,110 @@
+
+.card{
+    width: 80%;
+    min-height: 120px;
+   
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(240, 236, 236);
+    align-self: stretch;
+    
+
+}
+
+
+.card:hover{
+  
+  background-color: white;
+ 
+  box-shadow: 5px 5px 20px 2px  rgba(3, 3, 3, 0.851);;
+  transition: background-color 0.8s, box-shadow 0.6s;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+  
+    min-height: 120px;
+    
+}
+
+.profile-logo-container{
+    background-color: rgb(99, 100, 99);
+    height: 50px;
+    width: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 10px;
+}
+.profile-text{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-family: "Arial";
+    color: white;
+    font-size:20px;
+}
+.profile-details-container{
+   
+    flex-grow: 1;
+    margin-left: 10px;
+
+}
+.profile-name-and-platform{
+    margin: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+span{
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+a{
+    align-content: flex-end;
+   
+}
+
+hr{
+ 
+    color: black;
+    width: 90%;
+    background-color: black;
+    height: 1px;
+
+}
+.review-description-container{
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    flex-grow: 1;
+
+}
+.review-description{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 600;
+}
+@media screen and (min-width:768px) {
+    .card{
+        width: 40%;
+       
+        
+    }
+}
